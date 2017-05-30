@@ -1,0 +1,12 @@
+.DS_Store
+*.sw[mnop]
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+#Phase definition for Visual Studio Code
+defs/*
+jsconfig.json
+
