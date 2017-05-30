@@ -18,7 +18,6 @@ function preload() {
 }
 
 function create() {
-    game.add.sprite(0, 0, 'bg')
     createPlayer()
 }
 
