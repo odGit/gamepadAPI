@@ -1,0 +1,28 @@
+{
+    "name": "8bit",
+    "version": "1.0.0",
+    "description": "Gamepad API demo",
+    "main": "index.html",
+    "scripts": {
+        "start": "budo --live --verbose --port 3000 --open",
+        "deploy": "ghpages"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/odGit/gamepadAPI.git"
+    },
+    "keywords": [
+        "gamepadAPI"
+    ],
+    "author": "Olga Dmitricenko",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/odGit/gamepadAPI/issues"
+    },
+    "devDependencies": {
+        "budo": "^10.0.3"
+    },
+    "dependencies": {
+        "ghpages": "0.0.10"
+    }
+}

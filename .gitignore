@@ -10,3 +10,6 @@ npm-debug.log*
 defs/*
 jsconfig.json
 
+
+#Dependency directory
+node_modules
