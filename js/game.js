@@ -13,11 +13,16 @@ function preload() {
     game.scale.pageAlignHorizontally = true
     game.scale.pageAlignVertically = true
     game.stage.backgroundColor = '#9576AA'
-    game.load.image('boat', 'img/cat.png')
-
+    game.load.image('cat', 'img/cat.png')
+    game.load.image('ground', 'img/ground.png')
 }
 
 function create() {
+    game.physics.startSystem(Phaser.Physics.ARCADE)
+    platforms = game.add.group()
+    platforms.enableBody = true
+
+
     createPlayer()
 }
 
@@ -27,6 +32,12 @@ function update() {
 }
 
 function createPlayer() {
+
+    player = game.add.sprite(70, 100, 'cat')
+    game.physics.arcade.enable(player)
+    player.body.gravity.y = 600
+    player.body.bounce.y = 0.2
+    player.body.collideWorldBounds = true
 
 }
 
