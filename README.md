@@ -8,4 +8,4 @@
 [Sample on Github](http://internetexplorer.github.io/Gamepad-Sample/) 
 
 ## Key Mapping 
-[[https://cdn-images-1.medium.com/max/2000/1*5wIN3eXNctXqGXsErjT3OA.png|alt=Samsung Browser]]
+![Samsung Browser](https://cdn-images-1.medium.com/max/2000/1*5wIN3eXNctXqGXsErjT3OA.png)
